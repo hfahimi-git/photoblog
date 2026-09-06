@@ -1,1 +1,1 @@
-### my old photoblog (hfahimi.com) is coming here
+### my old photoblog is coming here
