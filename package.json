@@ -1,0 +1,19 @@
+{
+  "name": "photoblog",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx scripts/generate-photos.ts && vite",
+    "build": "tsx scripts/generate-photos.ts && tsc && vite build",
+    "preview": "vite preview",
+    "generate": "tsx scripts/generate-photos.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "exifr": "^7.1.3",
+    "tsx": "^4.19.2",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.3"
+  }
+}
